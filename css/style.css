@@ -1737,8 +1737,8 @@ button.small, .button.small {
   text-align: center;
   position: relative;
   z-index: 1;
-  background: #2B2E31;
-  color: #ffffff;
+  background: white;
+  color: red;
 }
 
 .dm-icon-medium:after, .dm-icon:after {
