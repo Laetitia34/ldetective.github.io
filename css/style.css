@@ -6,11 +6,11 @@
 }
 
 body {
-  background: black;
+  background: #2B2E31;
   margin: 0;
   height: 100%;
   z-index: 1000;
-  color: #696E74;
+  color: #ccb788;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,9 +23,9 @@ p {
   margin-bottom: 12px;
   font-family: 'Ruda', sans-serif !important;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
-  color: #696E74;
+  color: #ccb788;
   margin-top: 10px;
 }
 
@@ -751,7 +751,7 @@ body.nobg .section1 {
 }
 
 .footer {
-  background: black;
+  background: #2B2E31;
   padding: 25px 0 0;
   position: relative;
   overflow: hidden;
@@ -809,7 +809,7 @@ body.nobg .section1 {
 }
 
 .copyrights {
-  background: black;
+  background: #2B2E31;
   padding: 0;
   font-size: 12px;
   border-top: 1px solid #3E4246;
@@ -848,26 +848,26 @@ body.nobg .section1 {
 
 
 .section4, .section1 {
-  background: black;
+  background: #2B2E31;
   padding: 30px 0;
 }
 
 .section2 {
-  background: black;
+  background: #2B2E31;
 }
 
 .section3 {
-  background: black;
+  background: #2B2E31;
 }
 
 
 .section5 {
-  background: black;
+  background: #2B2E31; /* fond page accueil */ 
   padding: 30px 0;
 }
 
 .section5 h4 {
-  color: white;
+  color: #b6a788;  /* titre dans page accueil */
 }
 
 .withpadding {
@@ -1099,8 +1099,8 @@ body.nobg .section1 {
 .portfolio_details {
   margin: 0;
   border: 0;
-  border: 1px solid #EDEDED;
-  background-color: black; /* Couleur fond rectangle discrétion */ 
+  border: 0px solid #EDEDED; /* Couleur bord rectangle discrétion */
+  background-color: #2B2E31; /* Couleur fond rectangle discrétion */ 
   padding: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1421,7 +1421,7 @@ body.nobg .section1 {
 }
 
 .pricing li {
-  border-bottom: 1px solid #DCDBD7;
+  border-bottom: 1px solid #DCDBD7; /* couleur clic tarifs */ 
   font-size: 13px;
   font-weight: 100;
   line-height: 34px;
@@ -1511,7 +1511,7 @@ body.nobg .section1 {
 }
 
 .teammembers {
-  border: 1px dashed #dddddd;
+  border: 1px dashed #b6a788; /* ligne particuliers/entrep */ 
   padding: 25px;
   text-align: center;
   margin: 30px 0;
