@@ -137,7 +137,7 @@
 	.btn-primary.disabled.active,
 	.btn-primary[disabled].active,
 	fieldset[disabled] .btn-primary.active,
-	.topbar,
+	
 	.progress-bar-danger,
 	.servicetitle hr,
 	.icn-container,
@@ -154,9 +154,13 @@
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-topic-count,
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-reply-count,
 	.dmtop {
-		background-color: #b6a788; /* top bar, icones prix, soulignés accueil */ 
+		background-color: #EEEBAA; /* top bar, icones prix, soulignés accueil */ 
 	}
-	
+
+	.topbar {
+background-color: rgb(80,82,84);
+	}
+
 	.services_lists_boxes_icon_none i:hover,
 	.services_lists_boxes_icon i:hover {
 		background: red !important;
