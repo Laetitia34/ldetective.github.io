@@ -25,7 +25,7 @@ p {
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  color: #ccb788;
+  color: white;
   margin-top: 10px;
 }
 
@@ -1099,8 +1099,8 @@ body.nobg .section1 {
 .portfolio_details {
   margin: 0;
   border: 0;
-  border: 0px solid #EDEDED; /* Couleur bord rectangle discrétion */
-  background-color: #2B2E31; /* Couleur fond rectangle discrétion */ 
+  border: 1px solid #b6a788; /* Couleur bord rectangle discrétion */
+  background-color: black; /* Couleur fond rectangle discrétion */ 
   padding: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1377,8 +1377,8 @@ body.nobg .section1 {
 }
 
 .custom-box {
-  background: #FFFFFF;
-  border: 1px solid #DCDBD7;
+  background: black; /* rectangle prix */ 
+  border: 1px solid #b6a788;  /* contour restangle prix */ 
   margin: 30px 0;
   padding: 30px 20px 35px;
   text-align: center;
@@ -1511,7 +1511,8 @@ body.nobg .section1 {
 }
 
 .teammembers {
-  border: 0px dashed #b6a788; /* ligne particuliers/entrep */ 
+  border: 1px dashed #b6a788; /* contour particuliers/entrep */ 
+  background: black; /* rectangle particuliers/entrep */ 
   padding: 25px;
   text-align: center;
   margin: 30px 0;
