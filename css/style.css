@@ -10,7 +10,7 @@ body {
   margin: 0;
   height: 100%;
   z-index: 1000;
-  color: #ccb788;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1511,7 +1511,7 @@ body.nobg .section1 {
 }
 
 .teammembers {
-  border: 1px dashed #b6a788; /* ligne particuliers/entrep */ 
+  border: 0px dashed #b6a788; /* ligne particuliers/entrep */ 
   padding: 25px;
   text-align: center;
   margin: 30px 0;
