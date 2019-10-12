@@ -25,7 +25,7 @@
 	.title:before,
 	.post-meta a:hover,
 	 .title:after{
-		border-color: #b6a788;
+		border-color: white;
 	}
 
 	.panel-primary > .panel-heading + .panel-collapse .panel-body,
@@ -36,7 +36,7 @@
 	.navbar-default .navbar-nav > .active > a:focus,
 	.navbar-inverse .navbar-nav > .active > a:focus,
 	.nav .caret {
-	  border-bottom-color: white;
+	  border-bottom-color: #b6a788;
 	}
 
 	.panel-primary > .panel-heading + .panel-collapse .panel-body,
