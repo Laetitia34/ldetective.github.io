@@ -25,7 +25,7 @@
 	.title:before,
 	.post-meta a:hover,
 	 .title:after{
-		border-color: white;
+		border-color: #b6a788;
 	}
 
 	.panel-primary > .panel-heading + .panel-collapse .panel-body,
