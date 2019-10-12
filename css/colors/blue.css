@@ -154,7 +154,7 @@
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-topic-count,
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-reply-count,
 	.dmtop {
-		background-color: rgb(219,174,52);
+		background-color: #b6a788; /* top bar, icones prix, soulignés accueil */ 
 	}
 	
 	.services_lists_boxes_icon_none i:hover,
