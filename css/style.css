@@ -691,7 +691,7 @@ body.nobg .section1 {
 }
 
 .header {
-  background: #ffffff;
+  background: url("../img/parchemin.png");
   display: block;
   border-bottom: 1px solid #DCDBD7;
   position: relative;
