@@ -26,7 +26,7 @@
 **********************************************************/
 .jetmenu > li > a {       
     border-top: 3px solid #FFFFFF;
-    color: #FFFFFF;
+    color: #black;
     display: inline-block;
     font-size: 17px;
 	font-weight:400;
@@ -38,7 +38,7 @@
 
 .jetmenu > li:hover > a,
 .jetmenu > li.active > a{
-	color: #black;
+	color: ##FFFFFF;
 }
 
 /* DROPDOWN CONFIGURATION
@@ -85,7 +85,7 @@
 	-webkit-box-sizing:border-box;
 }
 .jetmenu ul.dropdown li:hover > a{
-	background: #black;
+	background: #e0e0e0;
 	color: #777777;
 }
 
