@@ -85,7 +85,7 @@
 	-webkit-box-sizing:border-box;
 }
 .jetmenu ul.dropdown li:hover > a{
-	background: #e0e0e0;
+	background: #black;
 	color: #777777;
 }
 
