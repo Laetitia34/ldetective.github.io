@@ -22,7 +22,9 @@
 	z-index: 10;
 }
 
-.jetmenu > li > a {
+/* couleur menu
+**********************************************************/
+.jetmenu > li > a {       
     border-top: 3px solid #FFFFFF;
     color: #FFFFFF;
     display: inline-block;
@@ -36,7 +38,7 @@
 
 .jetmenu > li:hover > a,
 .jetmenu > li.active > a{
-	color: #FFFFFF;
+	color: #black;
 }
 
 /* DROPDOWN CONFIGURATION
