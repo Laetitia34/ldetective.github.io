@@ -397,7 +397,7 @@ input, button, select, textarea {
 }
 
 #wrapper .section3 {
-  border: 0px solid #DCDBD7;
+  border: 0px solid ;
   padding: 0 20px;
 }
 
@@ -752,13 +752,13 @@ body.nobg .section1 {
 }
 
 .footer {
-  background: black; /*footer */ 
+  background: black; /* couleur footer */ 
   padding: 25px 0 0;
   position: relative;
   overflow: hidden;
   display: block;
   z-index: 1;
-  box-shadow: 0px -1px 0px black; /* ligne fine footer */ 
+  box-shadow: 0px -1px 0px black; /* couleur ligne fine footer */ 
   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -809,7 +809,7 @@ body.nobg .section1 {
   color: #ffffff;
 }
 
-.copyrights {
+.copyrights { /* couleur copyright */ 
   background: black;
   padding: 0;
   font-size: 12px;
@@ -848,7 +848,7 @@ body.nobg .section1 {
 
 
 
-.section4, .section1 { /* section contenu */ 
+.section4, .section1 { /* couleur fond contenu */ 
   background: black;
   padding: 30px 0;
 }
@@ -1097,10 +1097,14 @@ body.nobg .section1 {
   text-transform: uppercase;
 }
 
-.portfolio_details {
+
+
+/* page discrétion */
+
+.portfolio_details {  
   margin: 0;
   border: 0;
-  border: 1px solid #EEEBAA; /* Couleur bord rectangle discrétion */
+  border: 1px solid #d0ca5c; /* Couleur bord rectangle discrétion */
   background-color: black; /* Couleur fond rectangle discrétion */ 
   padding: 0;
   -webkit-border-radius: 0;
@@ -1379,7 +1383,7 @@ body.nobg .section1 {
 
 .custom-box {
   background: black; /* rectangle prix */ 
-  border: 1px solid #EEEBAA;  /* contour restangle prix */ 
+  border: 1px solid #d0ca5c;  /* contour restangle prix */ 
   margin: 30px 0;
   padding: 30px 20px 35px;
   text-align: center;
@@ -1422,7 +1426,7 @@ body.nobg .section1 {
 }
 
 .pricing li {
-  border-bottom: 1px solid #EEEBAA; /* couleur clic tarifs */ 
+  border-bottom: 1px solid #d0ca5c; /* couleur clic tarifs */ 
   font-size: 13px;
   font-weight: 100;
   line-height: 34px;
@@ -1512,7 +1516,7 @@ body.nobg .section1 {
 }
 
 .teammembers {
-  border: 1px dashed #EEEBAA; /* contour particuliers/entrep */ 
+  border: 2px dashed #d0ca5c; /* contour particuliers/entrep */ 
   background: black; /* rectangle particuliers/entrep */ 
   padding: 25px;
   text-align: center;
