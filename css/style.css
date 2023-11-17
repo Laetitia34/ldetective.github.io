@@ -752,13 +752,13 @@ body.nobg .section1 {
 }
 
 .footer {
-  background: #2B2E31;
+  background: black; /*footer */ 
   padding: 25px 0 0;
   position: relative;
   overflow: hidden;
   display: block;
   z-index: 1;
-  box-shadow: 0px -1px 0px white; /* ligne fine footer */ 
+  box-shadow: 0px -1px 0px black; /* ligne fine footer */ 
   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -810,10 +810,10 @@ body.nobg .section1 {
 }
 
 .copyrights {
-  background: #2B2E31;
+  background: black;
   padding: 0;
   font-size: 12px;
-  border-top: 1px solid #3E4246;
+  border-top: 1px solid black;
   margin-top: 15px;
   color: #fff;
 }
@@ -848,8 +848,8 @@ body.nobg .section1 {
 
 
 
-.section4, .section1 {
-  background: #2B2E31;
+.section4, .section1 { /* section contenu */ 
+  background: black;
   padding: 30px 0;
 }
 
