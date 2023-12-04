@@ -5,13 +5,23 @@
   font-family: 'Ruda', sans-serif;
 }
 
+
+/* couleur header */ 
 body {
-  background: white; /* couleur header */ 
+  background: white; 
   margin: 0;
   height: 100%;
   z-index: 1000;
   color: white;
 }
+
+
+
+/*couleur mots clés*/
+span {
+  color: black;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ruda', sans-serif;
@@ -574,7 +584,7 @@ body.nobg .section1 {
   font-style: italic !important;
   font-size: 11px !important;
   color: #798184 !important;
-  background: transparent !important;
+  background: transparent !important
 }
 
 .search-bar form input.searchsubmit {
@@ -690,8 +700,10 @@ body.nobg .section1 {
   font-weight: 400;
 }
 
+
+/* couleur fond header */
 .header {
-  background color: #ffffff; /* couleur fond header */
+  background color: #ffffff; 
   url("../img/parchemin.PNG"); 
   display: block;
   border-bottom: 1px solid #DCDBD7;
@@ -751,8 +763,10 @@ body.nobg .section1 {
   overflow: hidden;
 }
 
+
+/* couleur footer */ 
 .footer {
-  background: black; /* couleur footer */ 
+  background: black; 
   padding: 25px 0 0;
   position: relative;
   overflow: hidden;
