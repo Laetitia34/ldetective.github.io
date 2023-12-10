@@ -793,9 +793,10 @@ body.nobg .section1 {
   margin: 10px 0;
 }
 
+/* couleur écritures copyright */
 .footer-left p {
   display: inline-block;
-  color: #fff;
+  color: white;
 }
 
 .credits {
@@ -823,7 +824,7 @@ body.nobg .section1 {
   color: #ffffff;
 }
 
-.copyrights { /* couleur copyright */ 
+.copyrights { /* couleur fond copyright */ 
   background: black;
   padding: 0;
   font-size: 12px;
@@ -1114,7 +1115,6 @@ body.nobg .section1 {
 
 
 /* page discrétion */
-
 .portfolio_details {  
   margin: 0;
   border: 0;
@@ -2600,7 +2600,7 @@ a.readmore {
 }
 
 
-
+/* couleur écriture message erreur */ 
 .contact-form .validate {
   display: none;
   color: red;
