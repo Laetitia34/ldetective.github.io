@@ -25,5 +25,5 @@
   $contactform->add_message( $_POST['email'], 'Email');
   $contactform->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contactform->send();
+  echo $contactform->send('ldetective7@proton.me');
 ?>
