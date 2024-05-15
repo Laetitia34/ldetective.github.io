@@ -22,7 +22,7 @@
   $contactform->subject = $_POST['subject'];
 
   $contactform->add_message( $_POST['name'], 'From');
-  $contactform->add_message( $_POST['ldetective7@proton.me'], 'ldetective7@proton.me');
+  $contactform->add_message( $_POST['email'], 'Email');
   $contactform->add_message( $_POST['message'], 'Message', 10);
 
   echo $contactform->send();
