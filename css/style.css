@@ -8,7 +8,7 @@
 
 /* couleur header */ 
 body {
-  background: white; 
+  background: black; 
   margin: 0;
   height: 100%;
   z-index: 1000;
@@ -872,7 +872,7 @@ body.nobg .section1 {
   background: #2B2E31;
 }
 
-.section3 {
+.section3 { /* couleur fond reseaux sociaux */ 
   background: #2B2E31;
 }
 
