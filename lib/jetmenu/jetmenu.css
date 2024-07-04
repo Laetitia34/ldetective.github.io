@@ -23,8 +23,8 @@
 }
 
 .jetmenu > li > a {
-    border-top: 3px solid #FFFFFF;
-    color: black; /* couleur menu*********/
+    border-top: 3px solid white; /* couleur barre haut jetmenu*********/
+    color: black; /* couleur bouton accueil*********/
     display: inline-block;
     font-size: 17px;
 	font-weight:400;
@@ -36,7 +36,7 @@
 
 .jetmenu > li:hover > a,
 .jetmenu > li.active > a{
-	color: black;  /* couleur menu*********/
+	color: black;  /* couleur autres boutons*********/
 }
 
 /* DROPDOWN CONFIGURATION
@@ -74,7 +74,7 @@
 	float:left;
 	clear:both;
 	font-weight:400;
-	color: black;
+	color: black; /* couleur boutons déroulants*********/
 	font-size: 18px;
 	line-height: 20px;
 	text-decoration: none;
